@@ -1,17 +1,23 @@
 .name-orange{
 
     color: orange;
-
 }
-section{
+#border{
+    
+    border-image: linear-gradient(blue,black)
+}
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
+
+
 .half-width{
  width: 50%;
  padding: 2%;
 }
 .half-width img{
-    width: 50%;
+    width: 60%;
     align-self: center;
 }
 .button{
@@ -27,4 +33,39 @@ section{
     font-size: 15px;
     margin-top: 15px;
 
+}
+#mid-point{
+    text-align: center;
+}
+.year{
+    color: orange;
+}
+#mission1{
+    text-align: center;
+    font-size: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.half-width2 img{
+    width: 20%;
+    align-self: center;
+}
+.half-width2{
+    width: 50%;
+    padding: 2%;
+    margin: 50px 30px 80px 50px;
+    box-shadow: 10px 10px 10px 10px white;
+    border-radius: 10px;
+    background-color: lightgreen;
+   }
+
+   footer {
+   
+    justify-content: center;
+    padding: 5px;
+    background-color: #101111;
+    color: #fff;
+    text-align: center;
+}
+#footyeryear{
+    color: red;
 }
