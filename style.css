@@ -144,3 +144,9 @@ input[type=text], select, textarea {
   .margin{
     margin: 0px 5px 20px 155px;
   }
+  .back-color{
+    background-color: hsla(276, 89%, 74%, 0.281);
+  }
+  .back-color-two{
+    background-color: hsla(24, 77%, 68%, 0.281);
+  }
