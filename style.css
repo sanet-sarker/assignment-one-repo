@@ -1,0 +1,30 @@
+.name-orange{
+
+    color: orange;
+
+}
+section{
+    display: flex;
+}
+.half-width{
+ width: 50%;
+ padding: 2%;
+}
+.half-width img{
+    width: 50%;
+    align-self: center;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(blue,yellow);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: palegoldenrod;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+}
+#scrol{
+    font-size: 15px;
+    margin-top: 15px;
+
+}
