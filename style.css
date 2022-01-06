@@ -1,10 +1,19 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
 .name-orange{
 
     color: orange;
 }
+
 #border{
     
-    border-image: linear-gradient(blue,black)
+    font-size: 40px;
+    padding: 0ch;
+    margin: 0ch;
+    border-left: 2px solid orange;
+    margin-left: 2px;
+    padding: 0px;
 }
 .flexible-container{
     display: flex;
@@ -22,7 +31,7 @@
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(blue,yellow);
+    background-image: linear-gradient(red,yellow);
     padding: 10px 30px;
     border-radius: 5px;
     color: palegoldenrod;
@@ -42,8 +51,8 @@
 }
 #mission1{
     text-align: center;
-    font-size: 700;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1000;
+    
 }
 .half-width2 img{
     width: 20%;
